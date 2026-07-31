@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+
+# Dataset folders
+dataset_cleaned/
+dataset_merged/
+dataset_train_ready/
+roboflow_cctv_weapon/
+
+# Dataset archives
+dataset_merged.zip
+weapon_training_results-20260731T042119Z-1-001.zip
+
+# Local runtime logs
+*.log
