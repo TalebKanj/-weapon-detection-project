@@ -13,14 +13,14 @@ venv/
 Thumbs.db
 
 # Dataset folders
-dataset_cleaned/
-dataset_merged/
-dataset_train_ready/
-roboflow_cctv_weapon/
+data/dataset_cleaned/
+data/dataset_merged/
+data/dataset_train_ready/
+data/roboflow_cctv_weapon/
 
 # Dataset archives
-dataset_merged.zip
-weapon_training_results-20260731T042119Z-1-001.zip
+archives/dataset_merged.zip
+archives/weapon_training_results-20260731T042119Z-1-001.zip
 
 # Local runtime logs
-*.log
+logs/*.log
